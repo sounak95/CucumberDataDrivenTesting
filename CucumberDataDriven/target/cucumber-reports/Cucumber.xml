@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="0.601836">
+<testcase classname="Data Driven Tests" name="Perform a successful single transfer" time="0.564623">
+<system-out><![CDATA[Given Login to applivcation as "3" customer.................................passed
+When user provides account transfer data as in "3" for account type "col5" for sheet "Sheet1".passed
+And Submits the transfer....................................................passed
+Then The transfer should be successful......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Data Driven Tests" name="Perform a successful single transfer 2" time="0.037213">
+<system-out><![CDATA[Given Login to applivcation as "2" customer.................................passed
+When user provides account transfer data as in "2" for account type "col5" for sheet "Sheet1".passed
+And Submits the transfer....................................................passed
+Then The transfer should be successful......................................passed
+]]></system-out>
+</testcase>
+</testsuite>
